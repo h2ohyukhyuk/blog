@@ -5,7 +5,7 @@ sort: 1
 Adaboost 는 Adaptive Boosting의 약자이다.   
 `Machine learning meta-algorithm`으로 다른 learning algorithm과 함께 사용하여 성능향상을 할 수 있다.  
 여러 model을 enssenble하여 성능 boosting을 한다.  
-각 model의 성능이 안좋더라도 enssenble하면 좋아진다.    
+각 model의 성능이 약하더라도 enssenble하면 향상된다.    
 이런 의미에서 각 하나의 model을 `weak model`로 부른다.   
 학습은 model 하나씩 순차적으로 학습해나가는 방식이다.  
 총 모델들를 학습하는 횟수를 `Round`라고 한다. 
